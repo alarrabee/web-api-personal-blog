@@ -58,5 +58,5 @@ THEN I am presented with a link to the developer's portfolio.
 ## Possible Improvements and Next Steps
 Update the layout and css styles to make the application more polished and professional. 
 
-## Acknowledments
-Guidance provided by edX Web Development Tutor Team (Megan Meyers), and K.Otterness
+## Acknowledgments
+Guidance provided by edX Web Development Tutor Team (Megan Meyers), and K.Otterness.
