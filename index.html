@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="assets\css\form.css"/>
+</head>
+<body>
+
+    <main>
+        <h1>My First Blog</h1>
+
+        <div class="form-container">
+            <form id="form">
+
+                <label for="username">Username</label><br>
+                <input id="username" type="text" name="username"/><br>
+
+                <label for="title">Title</label><br>
+                <input id="title" type="text" name="title"/><br>
+
+                <label for="content">Content</label><br>
+                <input id="content" type="text" name="content"/><br>
+
+                <!-- submit button: will direct user to the blog page -->
+                <input id="submit-post" type="submit" value="submit post" onclick="blog.html"/> <!-- link added to blog.html-->
+
+            </form>
+        </div>
+    </main>
+
+    <script src="assets\js\form.js"></script>
+  
+</body>
+</html>
+
+<!-- my html notes -->
+<!-- The attribute of <label> must be equal to the id attribute of the related <input> field -->
+<!-- The .required property sets or returns whether a text field must be filled out before submitting the form -->
+<!-- input type="text" defines a single-line text input field -->
+<!-- I want the form elements to be displayed in a column format. <br> inserts single line breaks in a text -->
+<!-- For a <form> element, the name attribute is used as a refrence when the data is submitted -->
+<!-- input type="submit" defines a button for submitting form data -->
+<!-- value attribute labels the button with a name -->
+<!-- onclick is an event that occurs when the user clicks the html element -->

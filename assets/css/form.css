@@ -1,0 +1,38 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    border: solid rebeccapurple;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 60%;
+    text-align: center;
+    margin-left: 19%;
+}
+
+label {
+    font-size: larger;
+}
+
+
+#form {
+    border: solid rebeccapurple;
+    width: 60%;
+    text-align: center;
+    margin-left: 19%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#username,
+#title {
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#content {
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
