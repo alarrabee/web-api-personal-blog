@@ -5,6 +5,18 @@ backBtn.addEventListener('click', function(e) {
     window.location.href = "index.html";
 });
 
+//create a light/dark mode toggle
+const toggle = document.getElementById('dark-mode');
+
+toggle.addEventListener('click', function() {
+    //e.preventDefault();  not needed
+    const body = document.body;
+    body.classList.toggle('light-mode');
+});
+
+//.addEventListener added to the button with the id="dark-mode" through the toggle variable. When 'clicked' the button will switch between light and dark mode styles from the css
+//body variable set to the <body> element on the html page so we can modify it
+//.classList is a property that provides the .toggle() method that will toggle between light and dark mode by removing or adding the the precense of the light-mode style in CSS
 
 
 

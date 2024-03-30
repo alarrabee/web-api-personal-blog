@@ -1,3 +1,13 @@
+body {
+    background-color: #28292b;
+    color: #f5f7fa;
+}
+
+.light-mode {
+    background-color: #f5f7fa;
+    color: black;
+}
+
 header {
     font-size: 20px;
     border: solid rebeccapurple;
@@ -15,6 +25,7 @@ div {
     margin-left: 19%;
     margin-bottom: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
