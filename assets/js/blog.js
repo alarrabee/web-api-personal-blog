@@ -67,6 +67,14 @@ function listPost() {
     }
 }
 
+//blog posts would not display. needed to add id to the postDiv <div>
+
+//blog posts would not display. needed to call it.
+listPost();
+
+
+
+
 //my js notes
 
 //the function listPost() retrieves the form data of each new blog entry and appends (displays) it to the blog page
@@ -83,3 +91,5 @@ function listPost() {
 
 //Then each line is appended to the innerPostDiv. 
 //And each innerPostDiv is then appended to the postDiv - displaying each form submission as its own blog post on the page. 
+
+
